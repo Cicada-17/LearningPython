@@ -13,7 +13,4 @@ def factorial(num):
         result *= n
     return result
 
-x = int(input('输入 x：'))
-y = int(input('输入 y:'))
-print(factorial(y) / factorial(x) /factorial(y-x))
 
